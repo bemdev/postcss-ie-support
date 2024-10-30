@@ -1,0 +1,14 @@
+{
+  "name": "postcss-ie-support",
+  "version": "1.0.0",
+  "description": "converting new css rules to work in older browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bemdev",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.47"
+  }
+}

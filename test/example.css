@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #333;
+}
+
+.Theme {
+    --another-color: #fc0;
+}
+
+.Theme__root {
+    --text-padding: 3px;
+}
+
+.container {
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    background: var(--another-color);
+    gap: 10px;
+}
+
+.card {
+    display: grid;
+    gap: 10;
+    padding: calc(var(--text-padding) * 3);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block {
+    width: calc(100% - 80px);
+}
+
+h1 {
+    font-size: calc(1.5rem + 3vw);
+}
